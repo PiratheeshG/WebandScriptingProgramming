@@ -1,48 +1,51 @@
-/* style-mobile.css - Mobile Styles (max-width: 600px) */
-
 body {
     background-image: url('background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 10px;
+    padding: 15px;
+    color: black;
 }
 
 /* Container Width */
 .container {
     width: 90%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* Header Styles */
 header {
     background-color: black;
-    padding: 20px 10px;
+    padding: 25px 15px;
+    color: yellow;
 }
 
 /* Navigation Styles */
 nav ul li {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 nav ul li a {
     display: block;
-    padding: 10px;
+    padding: 15px;
+    color: yellow;
+    text-decoration: none;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: red;
+    background-color: yellow;
+    color: black;
     border-radius: 5px;
 }
 
 /* Profile Picture */
 .profile-pic {
-    max-width: 100px;
+    max-width: 120px;
     border-radius: 50%;
-    margin: 20px auto;
+    margin: 25px auto;
     display: block;
 }
 
@@ -50,36 +53,49 @@ nav ul li a.active {
 .video video {
     width: 100%;
     height: auto;
+    margin: 10px auto;
 }
 
 /* Project Section */
 .project {
-    background-color: #ffffff;
-    padding: 15px;
-    margin-bottom: 15px;
+    background-color: yellow;
+    padding: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
+    color: black;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #35424a;
-    padding: 20px 10px;
+    background-color: black;
+    padding: 30px 15px;
+    color: yellow;
 }
 
 /* General Spacing Adjustments */
 section,
 main {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* Form Adjustments */
 form input,
 form textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 15px;
+    width: calc(100% - 30px);
+    border: 1px solid black;
 }
 
 form button {
-    padding: 10px 20px;
+    padding: 15px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: black;
+    color: yellow;
 }

@@ -1,83 +1,97 @@
-/* style-desktop.css - Desktop Styles (min-width: 1025px) */
-
 body {
     background-image: url('background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 20px;
+    padding: 30px;
+    color: black;
 }
 
 /* Container Width */
 .container {
-    width: 80%;
+    width: 75%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* Header Styles */
 header {
-    background-image: linear-gradient(to right, black, red);
-    padding: 40px 20px;
+    background-image: linear-gradient(to right, black, yellow);
+    padding: 50px 30px;
 }
 
 /* Navigation Styles */
 nav ul li {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
 nav ul li a {
-    padding: 20px 25px;
+    padding: 20px 30px;
+    color: black;
+    text-decoration: none;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: #e8491d;
+    background-color: yellow;
+    color: black;
     border-radius: 5px;
 }
 
 /* Profile Picture */
 .profile-pic {
-    max-width: 200px;
-    margin: 30px auto;
+    max-width: 250px;
+    margin: 40px auto;
 }
 
 /* Video */
 .video video {
-    width: 60%;
+    width: 70%;
     height: auto;
+    margin: 20px auto;
 }
 
 /* Project Section */
 .project {
     background-image: linear-gradient(135deg, #ffffff, yellow);
-    padding: 25px;
-    margin-bottom: 25px;
+    padding: 30px;
+    margin-bottom: 30px;
     border-radius: 5px;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #35424a;
-    padding: 50px 20px;
+    background-color: black;
+    padding: 60px 30px;
+    color: yellow;
 }
 
 /* General Spacing Adjustments */
 section,
 main {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 /* Form Adjustments */
 form input,
 form textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 15px;
+    width: calc(100% - 30px);
+    border: 1px solid black;
 }
 
 form button {
-    padding: 10px 20px;
+    padding: 15px 30px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: black;
+    color: yellow;
 }
