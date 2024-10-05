@@ -1,121 +1,55 @@
-body {
-    background-image: url('background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 30px;
-    color: black;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.6em;
-}
+/* Desktop Styles (min-width: 1025px) */
 
 /* Container Width */
 .container {
-    width: 75%;
+    width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
 }
 
 /* Header Styles */
 header {
-    background-image: linear-gradient(to right, black, yellow);
-    padding: 60px 30px;
-    color: yellow;
-    text-align: center;
-    font-size: 2em;
+    background-image: linear-gradient(to right, #35424a, #e8491d);
+    padding: 40px 0;
 }
 
 /* Navigation Styles */
 nav ul li {
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    padding: 20px 30px;
-    color: black;
-    text-decoration: none;
-    transition: transform 0.3s ease;
+    padding: 15px 20px;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: yellow;
-    color: black;
+    background-color: #e8491d;
     border-radius: 5px;
-    transform: scale(1.1);
 }
 
 /* Profile Picture */
 .profile-pic {
-    max-width: 250px;
-    margin: 40px auto;
-    display: block;
-    border-radius: 50%;
+    max-width: 200px;
+    margin: 30px auto;
 }
 
 /* Video */
 .video video {
-    width: 70%;
+    width: 60%;
     height: auto;
-    margin: 30px auto;
-    display: block;
 }
 
 /* Project Section */
 .project {
-    background-image: linear-gradient(135deg, #ffffff, yellow);
-    padding: 40px;
-    margin-bottom: 40px;
+    background-image: linear-gradient(135deg, #ffffff, #cccccc);
+    padding: 25px;
+    margin-bottom: 25px;
     border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer Styles */
 footer {
-    background-color: black;
-    padding: 60px 30px;
-    color: yellow;
-    text-align: center;
-    font-size: 1.2em;
-}
-
-footer a {
-    color: yellow;
-    text-decoration: underline;
-}
-
-footer a:hover {
-    color: white;
-}
-
-/* General Spacing Adjustments */
-section,
-main {
-    margin-bottom: 40px;
-}
-
-/* Form Adjustments */
-form input,
-form textarea {
-    margin-bottom: 20px;
-    padding: 15px;
-    width: calc(100% - 40px);
-    border: 1px solid black;
-}
-
-form button {
-    padding: 15px 30px;
-    background-color: yellow;
-    color: black;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-form button:hover {
-    background-color: black;
-    color: yellow;
+    background-color: #35424a;
+    padding: 40px 0;
 }
