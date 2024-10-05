@@ -1,61 +1,23 @@
 /* Tablet Styles (min-width: 601px and max-width: 1024px) */
-
 body {
     background-image: url('background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 15px;
 }
 
-/* Container Width */
 .container {
     width: 85%;
+    margin: 0 auto;
+    padding: 15px;
 }
 
-/* Header Styles */
 header {
     background-image: linear-gradient(to right, black, red);
-    padding: 30px 0;
+    padding: 30px 15px;
 }
 
-/* Navigation Styles */
-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    padding: 10px 15px;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-    background-color: yellow;
-    border-radius: 5px;
-}
-
-/* Profile Picture */
-.profile-pic {
-    max-width: 150px;
-    margin: 20px auto;
-}
-
-/* Video */
-.video video {
-    width: 80%;
-    height: auto;
-}
-
-/* Project Section */
-.project {
-    background-image: linear-gradient(135deg, #ffffff, #cccccc);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
-
-/* Footer Styles */
 footer {
-    background-color: black;
-    padding: 30px 0;
+    padding: 30px 15px;
 }
