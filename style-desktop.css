@@ -13,7 +13,7 @@ body {
 
 /* Header Styles */
 header {
-    background-image: linear-gradient(from above, black, yellow);
+    background-image: linear-gradient(to bottom, black, yellow);
     padding: 40px 0;
 }
 
@@ -25,12 +25,15 @@ nav ul li {
 
 nav ul li a {
     padding: 15px 20px;
+    color: black;
+    text-decoration: none;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
     background-color: yellow;
     border-radius: 5px;
+    color: black;
 }
 
 /* Profile Picture */
@@ -56,5 +59,7 @@ nav ul li a.active {
 /* Footer Styles */
 footer {
     background-color: black;
+    color: yellow;
     padding: 40px 0;
+    text-align: center;
 }
