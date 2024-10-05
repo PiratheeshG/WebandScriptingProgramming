@@ -57,7 +57,6 @@ nav ul li a.active:hover {
     margin: 30px auto;
     display: block;
     border-radius: 50%;
-    /* Make the image circular */
     border: 5px solid yellow;
     /* Add a yellow border */
 }
@@ -106,6 +105,54 @@ footer {
     margin-top: 20px;
     width: 100%;
     clear: both;
+}
+
+/* Styling for form elements */
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Light background for better readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow to lift the form */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffc107;
 }
 
 .text-background {
