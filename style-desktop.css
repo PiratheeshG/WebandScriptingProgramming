@@ -1,4 +1,5 @@
-/* Desktop Styles (min-width: 1025px) */
+/* style-desktop.css - Desktop Styles (min-width: 1025px) */
+
 body {
     background-image: url('background.png');
     background-size: cover;
@@ -7,7 +8,7 @@ body {
     padding: 20px;
 }
 
-/* Adjusted container and content spacing */
+/* Container Width */
 .container {
     width: 80%;
     max-width: 1200px;
@@ -15,7 +16,7 @@ body {
     padding: 20px;
 }
 
-/* Header, navigation, and footer styles improved for better readability */
+/* Header Styles */
 header {
     background-image: linear-gradient(to right, black, red);
     padding: 40px 20px;
@@ -31,6 +32,52 @@ nav ul li a {
     padding: 20px 25px;
 }
 
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #e8491d;
+    border-radius: 5px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    max-width: 200px;
+    margin: 30px auto;
+}
+
+/* Video */
+.video video {
+    width: 60%;
+    height: auto;
+}
+
+/* Project Section */
+.project {
+    background-image: linear-gradient(135deg, #ffffff, yellow);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
 footer {
+    background-color: #35424a;
     padding: 50px 20px;
+}
+
+/* General Spacing Adjustments */
+section,
+main {
+    margin-bottom: 30px;
+}
+
+/* Form Adjustments */
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 20px);
+}
+
+form button {
+    padding: 10px 20px;
 }
