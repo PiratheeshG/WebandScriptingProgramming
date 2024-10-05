@@ -7,7 +7,7 @@
 
 /* Header Styles */
 header {
-    background-color: #35424a;
+    background-color: black;
     padding: 20px 0;
 }
 
@@ -23,7 +23,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: #e8491d;
+    background-color: red;
     border-radius: 5px;
 }
 
