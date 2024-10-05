@@ -1,3 +1,4 @@
+/* General Body Styles */
 body {
     background-image: url('background.png');
     background-size: cover;
@@ -5,12 +6,11 @@ body {
     background-attachment: fixed;
 }
 
-/* Container Width */
+/* Container for desktop */
 .container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    /* Centers the container */
 }
 
 /* Header Styles */
@@ -28,6 +28,8 @@ nav ul li {
 nav ul li a {
     color: black;
     background-color: transparent;
+    text-decoration: none;
+    padding: 15px 20px;
 }
 
 /* Hover style */
@@ -37,8 +39,15 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* Active link style */
 nav ul li a.active {
     background-color: transparent;
+    color: black;
+}
+
+/* Ensure hover overrides active */
+nav ul li a.active:hover {
+    background-color: yellow;
     color: black;
 }
 
@@ -83,7 +92,7 @@ main {
     /* Adjust based on your footer height */
 }
 
-/* Footer styling to position it at the bottom */
+/* Footer */
 footer {
     background-color: black;
     color: yellow;
