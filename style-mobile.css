@@ -12,7 +12,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #35424a;
+    background-image: linear-gradient(from above, black, yellow);
     padding: 20px 0;
 }
 
@@ -28,7 +28,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: #e8491d;
+    background-color: yellow;
     border-radius: 5px;
 }
 
@@ -48,7 +48,7 @@ nav ul li a.active {
 
 /* Project Section */
 .project {
-    background-color: #ffffff;
+    background-image: linear-gradient(135deg, white, yellow);
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -56,6 +56,6 @@ nav ul li a.active {
 
 /* Footer Styles */
 footer {
-    background-color: #35424a;
+    background-color: black;
     padding: 20px 0;
 }
