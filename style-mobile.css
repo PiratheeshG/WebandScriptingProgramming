@@ -53,11 +53,14 @@ nav ul li a.active:hover {
     color: black;
 }
 
-/* Profile Picture */
 .profile-pic {
     max-width: 150px;
-    /* Smaller image for mobile */
     margin: 20px auto;
+    display: block;
+    border-radius: 50%;
+    /* Make the image circular */
+    border: 5px solid yellow;
+    /* Add a yellow border */
 }
 
 /* Video */

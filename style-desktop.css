@@ -55,6 +55,11 @@ nav ul li a.active:hover {
 .profile-pic {
     max-width: 200px;
     margin: 30px auto;
+    display: block;
+    border-radius: 50%;
+    /* Make the image circular */
+    border: 5px solid yellow;
+    /* Add a yellow border */
 }
 
 /* Video */
