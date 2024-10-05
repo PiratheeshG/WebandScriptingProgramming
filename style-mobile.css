@@ -1,4 +1,3 @@
-/* General Body Styles */
 body {
     background-image: url('background.png');
     background-size: cover;
@@ -6,20 +5,16 @@ body {
     background-attachment: fixed;
 }
 
-/* Container for mobile */
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
-/* Header Styles */
 header {
     background-image: linear-gradient(to bottom, black, yellow);
     padding: 20px 0;
-    /* Reduce padding for mobile */
 }
 
-/* Navigation Styles */
 nav ul {
     text-align: center;
 }
@@ -31,27 +26,21 @@ nav ul li {
 
 nav ul li a {
     padding: 10px 15px;
-    /* Reduce padding for smaller buttons */
 }
 
-/* Profile Picture */
 .profile-pic {
     max-width: 150px;
     margin: 20px auto;
     display: block;
     border-radius: 50%;
     border: 3px solid yellow;
-    /* Slightly smaller border */
 }
 
-/* Video */
 .video video {
     width: 100%;
-    /* Make the video full width for mobile */
     height: auto;
 }
 
-/* Project Section */
 .project {
     background-image: linear-gradient(135deg, white, yellow);
     padding: 15px;
@@ -59,7 +48,6 @@ nav ul li a {
     border-radius: 5px;
 }
 
-/* Footer */
 footer {
     background-color: black;
     color: yellow;
@@ -68,7 +56,6 @@ footer {
     width: 100%;
 }
 
-/* Form Styling for Mobile */
 form {
     margin-top: 20px;
     padding: 20px;
@@ -83,7 +70,6 @@ form {
 
 label {
     font-size: 14px;
-    /* Smaller font size for labels */
 }
 
 input,
@@ -96,7 +82,6 @@ button {
     padding: 10px;
     font-size: 14px;
     width: 100%;
-    /* Full width for button */
 }
 
 button:hover {
@@ -104,7 +89,7 @@ button:hover {
 }
 
 .portfolio-intro {
-    background-color: white;
+    background-color: rgb(79, 79, 79);
     padding: 20px;
     border-radius: 5px;
     text-align: center;
@@ -118,7 +103,7 @@ button:hover {
 }
 
 .portfolio-intro p {
-    color: black;
+    color: white;
     font-size: 1.5rem;
     font-weight: normal;
 }
