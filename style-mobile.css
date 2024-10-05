@@ -1,4 +1,9 @@
-/* Mobile Styles (max-width: 600px) */
+body {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 /* Container Width */
 .container {
