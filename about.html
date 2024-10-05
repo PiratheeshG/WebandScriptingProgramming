@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Your Name</title>
+    <!-- Link to CSS files for different viewports -->
+    <!-- Link to mobile CSS file -->
+    <link rel="stylesheet" href="style-mobile.css" media="only screen and (max-width: 600px)">
+    <!-- Link to tablet CSS file -->
+    <link rel="stylesheet" href="style-tablet.css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
+    <!-- Link to desktop CSS file -->
+    <link rel="stylesheet" href="style-desktop.css" media="only screen and (min-width: 1025px)">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h1>About Me</h1>
+            <!-- Profile Section -->
+            <div class="profile">
+                <!-- Photo -->
+                <img src="images/your-photo.jpg" alt="Your Name" class="profile-pic">
+                <!-- Introduction -->
+                <p>Hello! I am <strong>Your Name</strong>, and I have a deep interest in cybersecurity.</p>
+            </div>
+            <!-- Video Section -->
+            <div class="video">
+                <video width="640" height="360" controls poster="images/video-poster.jpg">
+                    <source src="videos/intro-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>Contact: your.email@example.com</p>
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
