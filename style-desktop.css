@@ -56,10 +56,35 @@ nav ul li a.active {
     border-radius: 5px;
 }
 
-/* Footer Styles */
+/* Ensure body and html take up full height */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure wrapper takes full height */
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+/* Padding added to avoid content overlapping the footer */
+main {
+    padding-bottom: 70px;
+    /* Adjust based on your footer height */
+}
+
+/* Footer styling to position it at the bottom */
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    /* Set footer height */
     background-color: black;
     color: yellow;
-    padding: 40px 0;
     text-align: center;
+    padding: 20px 0;
 }
