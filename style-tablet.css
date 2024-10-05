@@ -73,8 +73,8 @@ html {
 
 /* Padding added to avoid content overlapping the footer */
 main {
-    padding-bottom: 70px;
-    /* Adjust based on your footer height */
+    padding: 20px 0;
+    min-height: calc(100vh - 150px);
 }
 
 /* Footer styling to position it at the bottom */
