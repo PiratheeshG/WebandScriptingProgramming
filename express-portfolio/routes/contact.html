@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Piratheesh Gunaseelan</title>
+    <!-- Link to CSS files for different viewports -->
+    <link rel="stylesheet" href="style-mobile.css" media="only screen and (max-width: 600px)">
+    <link rel="stylesheet" href="style-tablet.css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="style-desktop.css" media="only screen and (min-width: 1025px)">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html" class="active">Projects</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <h1>Contact Me</h1>
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <p>You can reach me through the following methods:</p>
+                    <ul>
+                        <li>Email: <a href="4piratheesh@gmail.com">4piratheesh@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <!-- Form Section -->
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                            title="Please enter a valid email address.">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            title="Phone number should be in the format 123-456-7890">
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" name="comments"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>Contact: 4piratheesh@gmail.com</p>
+                <p>&copy; 2024 Piratheesh Gunaseelan. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
