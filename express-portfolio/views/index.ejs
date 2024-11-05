@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Piratheesh Gunaseelan</title>
+    <!-- Link to CSS files for different viewports -->
+    <link rel="stylesheet" href="/stylesheets/style-mobile.css" media="only screen and (max-width: 600px)">
+    <link rel="stylesheet" href="/stylesheets/style-tablet.css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="/stylesheets/style-desktop.css" media="only screen and (min-width: 1025px)">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="portfolio-intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello! I'm Piratheesh Gunaseelan, a passionate cybersecurity enthusiast.</p>
+            <p>Explore my projects and get to know more about me.</p>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>Contact: 4piratheesh@gmail.com</p>
+            <p>&copy; 2024 Piratheesh Gunaseelan. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
 </html>
