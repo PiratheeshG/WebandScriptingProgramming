@@ -1,75 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<h1 class="mb-4">My Projects</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <!-- Ensures proper rendering -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %> - Piratheesh Gunaseelan</title>
-    <!-- Link to CSS files for different viewports -->
-    <link rel="stylesheet" href="/stylesheets/style-mobile.css" media="only screen and (max-width: 600px)">
-    <link rel="stylesheet" href="/stylesheets/style-tablet.css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
-    <link rel="stylesheet" href="/stylesheets/style-desktop.css" media="only screen and (min-width: 1025px)">
-</head>
+<!-- Project 1 -->
+<div class="card mb-4">
+    <div class="card-body">
+        <h2 class="card-title">Advanced Networking Case Study – Ontario Tech University Network Design (2023)</h2>
+        <p class="card-text">
+            This project involved designing and implementing an enterprise-level network infrastructure
+            at Ontario Tech University's main campus, situated in Oshawa. Two independent system
+            configurations were connected by BGP within the network, and internal route management was
+            handled by OSPF and EIGRP. Important duties included IP addressing, VLAN configurations,
+            VRF deployment, and IPv4 and IPv6 routing protocol configuration. The project ensured that
+            the university's North and Downtown campuses had full network access via dedicated ISP lines
+            and WAN.
+        </p>
+        <p><strong>Technologies Used:</strong> OSPFv3 (IPv4 & IPv6), EIGRP (IPv4 & IPv6), BGP, Virtual Routing
+            and Forwarding (VRF), VLANs, MPLS</p>
+    </div>
+</div>
 
-<body>
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="projects.html" class="active">Projects</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <div class="container">
-            <h1>My Projects</h1>
-
-            <!-- Project 1 -->
-            <div class="project">
-                <h2>Advanced Networking Case Study – Ontario Tech University Network Design (2023)</h2>
-                <p>
-                    This project involved designing and implementing an enterprise-level network infrastructure
-                    at Ontario Tech University's main campus, situated in Oshawa. Two independent system
-                    configurations were connected by BGP within the network, and internal route management was
-                    handled by OSPF and EIGRP. Important duties included IP addressing, VLAN configurations,
-                    VRF deployment, and IPv4 and IPv6 routing protocol configuration. The project ensured that
-                    the university's North and Downtown campuses had full network access via dedicated ISP lines
-                    and WAN.
-                </p>
-                <p><strong>Technologies Used:</strong> OSPFv3 (IPv4 & IPv6), EIGRP (IPv4 & IPv6), BGP, Virtual Routing
-                    and Forwarding (VRF), VLANs, MPLS</p>
-            </div>
-
-            <!-- Project 2 -->
-            <div class="project">
-                <h2>Advanced Networking II Case Study – MPLS WAN & DMVPN Configuration (2024)</h2>
-                <p>
-                    This project focused on building and constructing a wide-area network (WAN) infrastructure for
-                    Ontario Tech University's newly opened campuses in Toronto and Ottawa. The WAN was built using
-                    MPLS. The project also entailed configuring a switched LAN infrastructure for the Toronto
-                    campus and establishing secure connectivity across all campuses.
-                </p>
-                <p><strong>Technologies Used:</strong> MPLS, DMVPN, HSRPv2, EtherChannel (PAgP & LACP), IPSec for tunnel
-                    security, EIGRP Named Mode</p>
-            </div>
-
-
-        </div>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>Contact: 4piratheesh@gmail.com</p>
-            <p>&copy; 2024 Piratheesh Gunaseelan. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-
-</html>
+<!-- Project 2 -->
+<div class="card mb-4">
+    <div class="card-body">
+        <h2 class="card-title">Advanced Networking II Case Study – MPLS WAN & DMVPN Configuration (2024)</h2>
+        <p class="card-text">
+            This project focused on building and constructing a wide-area network (WAN) infrastructure for
+            Ontario Tech University's newly opened campuses in Toronto and Ottawa. The WAN was built using
+            MPLS. The project also entailed configuring a switched LAN infrastructure for the Toronto
+            campus and establishing secure connectivity across all campuses.
+        </p>
+        <p><strong>Technologies Used:</strong> MPLS, DMVPN, HSRPv2, EtherChannel (PAgP & LACP), IPSec for tunnel
+            security, EIGRP Named Mode</p>
+    </div>
+</div>

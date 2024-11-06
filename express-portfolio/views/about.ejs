@@ -1,67 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<h1>About Me</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <!-- Ensures proper rendering -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %> - Piratheesh Gunaseelan</title>
-    <!-- Link to CSS files for different viewports -->
-    <link rel="stylesheet" href="/stylesheets/style-mobile.css" media="only screen and (max-width: 600px)">
-    <link rel="stylesheet" href="/stylesheets/style-tablet.css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
-    <link rel="stylesheet" href="/stylesheets/style-desktop.css" media="only screen and (min-width: 1025px)">
-</head>
+<!-- Profile Section -->
+<div class="row">
+    <div class="col-md-4 text-center">
+        <!-- Profile Picture -->
+        <img src="/images/pfp.png" alt="Profile Picture" class="img-fluid rounded-circle border border-warning">
+    </div>
 
-<body>
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html" class="active">About Me</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
-                </ul>
-            </nav>
+    <div class="col-md-8">
+        <div class="text-background p-3">
+            <p>I'm <strong>Piratheesh Gunaseelan</strong>, a passionate cybersecurity enthusiast who is committed to protecting virtual environments.
+                I'm looking for a profession in cybersecurity, with a particular emphasis on system protection, vulnerability identification, and secure solution development.
+                Projects that showcase my expanding skill set and provide insights into my career path can be found here.</p>
         </div>
-    </header>
+    </div>
+</div>
 
-    <main>
-        <div class="container">
-            <h1>About Me</h1>
-            <!-- Profile Section -->
-            <div class="profile">
-                <!-- Profile Picture -->
-                <img src="pfp.png" alt="Piratheesh Gunaseelan" class="profile-pic">
-
-                <!-- Introduction -->
-                <div class="text-background">
-                    <p>I'm <strong>Piratheesh Gunaseelan</strong>, a passionate cybersecurity enthusiast who is
-                        committed to protecting virtual environments.
-                        I'm looking for a profession in cybersecurity, with a particular emphasis on system
-                        protection, vulnerability identification, and secure solution development.
-                        Projects that showcase my expanding skill set and provide insights into my career path can be
-                        found here.</p>
-                </div>
-            </div>
-
-            <!-- Video Section -->
-            <div class="video">
-                <video width="640" height="360" controls>
-                    <source src="intro.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>Contact: 4piratheesh@gmail.com</p>
-            <p>&copy; 2024 Piratheesh Gunaseelan. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-
-</html>
+<!-- Video Section -->
+<div class="video mt-4">
+    <video class="w-100" controls>
+        <source src="/videos/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>

@@ -1,49 +1,12 @@
+/* Background styling */
 body {
-    background-image: url('background.png');
+    background-image: url('/images/background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-header {
-    background-image: linear-gradient(to bottom, black, yellow);
-    padding: 40px 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-    padding: 15px 20px;
-}
-
-nav ul li a:hover {
-    background-color: yellow;
-    color: black;
-    border-radius: 5px;
-}
-
-nav ul li a.active {
-    background-color: transparent;
-    color: black;
-}
-
-nav ul li a.active:hover {
-    background-color: yellow;
-    color: black;
-}
-
+/* Profile picture styling */
 .profile-pic {
     max-width: 200px;
     margin: 30px auto;
@@ -52,90 +15,7 @@ nav ul li a.active:hover {
     border: 5px solid yellow;
 }
 
-.video video {
-    width: 60%;
-    height: auto;
-}
-
-.project {
-    background-image: linear-gradient(135deg, white, yellow);
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 5px;
-}
-
-body,
-html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.wrapper {
-    min-height: 100%;
-    position: relative;
-}
-
-main {
-    padding: 20px 0;
-    min-height: calc(100vh - 150px);
-}
-
-footer {
-    background-color: black;
-    color: yellow;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
-    width: 100%;
-    clear: both;
-}
-
-form {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: rgba(233, 233, 168, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(255, 255, 0, 0.5);
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-textarea {
-    height: 100px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: yellow;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-button:hover {
-    background-color: #ffc107;
-}
-
+/* Custom text background styling */
 .text-background {
     background-image: linear-gradient(135deg, white, yellow);
     padding: 20px;
@@ -143,6 +23,7 @@ button:hover {
     border-radius: 5px;
 }
 
+/* Portfolio introduction section */
 .portfolio-intro {
     background-color: rgb(79, 79, 79);
     padding: 20px;
@@ -157,7 +38,7 @@ button:hover {
     font-weight: bold;
 }
 
-portfolio-intro p {
+.portfolio-intro p {
     color: white;
     font-size: 1.5rem;
     font-weight: normal;

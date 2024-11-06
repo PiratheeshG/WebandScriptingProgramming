@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error</title>
-    <!-- Link to CSS files for different viewports -->
-    <link rel="stylesheet" href="/stylesheets/style-mobile.css" media="only screen and (max-width: 600px)">
-    <link rel="stylesheet" href="/stylesheets/style-tablet.css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
-    <link rel="stylesheet" href="/stylesheets/style-desktop.css" media="only screen and (min-width: 1025px)">
-</head>
-<body>
-    <div class="container">
+<div class="container mt-5">
+    <div class="alert alert-danger text-center">
         <h1>Error: <%= message %></h1>
         <p><%= error.status %> - <%= error.message %></p>
         <p>Sorry, something went wrong!</p>
-        <a href="/">Go back to the Home page</a>
+        <a href="/" class="btn btn-primary mt-3">Go back to Home</a>
     </div>
-</body>
-</html>
+</div>
+
+
 

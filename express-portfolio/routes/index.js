@@ -3,7 +3,7 @@ const router = express.Router();
 
 // Home page route
 router.get('/', (req, res) => {
-    res.render('index', { title: 'Home' }); // Passes the title variable
+    res.render('index', { title: 'Home' });
 });
 
 // About page route
@@ -22,5 +22,6 @@ router.get('/contact', (req, res) => {
 });
 
 module.exports = router;
+
 
 
